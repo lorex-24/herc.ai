@@ -142,5 +142,10 @@ try{
 
 }
 
-const port = process.env.PORT || 4000;
+const port = 4000; // Port definition
+const app = express();
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`);
+});
+
 module.exports = Hercai;
