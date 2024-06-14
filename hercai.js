@@ -1,3 +1,4 @@
+
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios = require('axios').default;
@@ -147,5 +148,4 @@ const app = express();
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
-
 module.exports = Hercai;
